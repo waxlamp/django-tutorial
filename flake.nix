@@ -11,6 +11,7 @@
         buildInputs = with pkgs; [
           python38Full
           python38Packages.django
+          sqlite
         ];
       };
 
